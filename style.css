@@ -82,24 +82,10 @@ h3{
 }
 
 .menu-wrap{ 
+    position: absolute;
     background: #1e1e35e3;
     height:200%;
-    width:100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    transform:scale(0);
-}
-
-.menu{ 
-    position: absolute;
-    transform: translate(-50% , -50%);
-    font-size: 1.5rem;
-    background: #1e1e35e3;
-    height:100vh;
-    width:100vw;
+    width:200%;
     border-radius:50%;
     display: flex;
     flex-direction: column;
@@ -107,7 +93,22 @@ h3{
     align-items: center;
     text-align: center;
     transform:scale(0);
-    transition: transform 0.4s ease-in-out;
+    transition: transform 0.7s ease-in-out;
+}
+
+.menu{ 
+    position: absolute;
+    transform: translate(-50% , -50%);
+    font-size: 1.5rem;
+    height:100vh;
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transform:scale(0);
+    
 }
 
 .menu.show,
@@ -125,7 +126,7 @@ h3{
 
 .menu-item.visible{
     opacity:1;
-    transition:opacity 0.4s 0.4s ease-in-out;
+    transition:opacity 0.3s 0.35s ease-in-out;
 }
 
 .menu-item:not(.last-item){
