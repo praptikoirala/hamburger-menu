@@ -84,8 +84,8 @@ h3{
 .menu-wrap{ 
     position: absolute;
     background: #1e1e35e3;
-    height:200%;
-    width:200%;
+    height:150vw;
+    width:150vw;
     border-radius:50%;
     display: flex;
     flex-direction: column;
